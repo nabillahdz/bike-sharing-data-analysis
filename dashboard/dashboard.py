@@ -21,8 +21,8 @@ def get_hourly_rentals(df):
     return df.groupby('hr')['cnt'].sum()
 
 # Import data
-hour_df = pd.read_csv('data/hourcleaned_data.csv')
-day_df = pd.read_csv('data/daycleaned_data.csv')
+hour_df = pd.read_csv('dashboard/hourcleaned_data.csv')
+day_df = pd.read_csv('dashboard/daycleaned_data.csv')
 
 # Streamlit App Layout
 st.title("Bike Rentals Dashboard")
