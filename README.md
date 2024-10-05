@@ -10,6 +10,4 @@ pip install streamlit
 
 streamlit run dashboard.py
 
-# Others
 
-Please change the file path for importing datasets
