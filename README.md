@@ -8,7 +8,7 @@ pip install streamlit
 
 # Run the code
 
-streamlit run "(file path for the dashboard.py)"
+streamlit run dashboard.py
 
 # Others
 
