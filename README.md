@@ -16,4 +16,4 @@ streamlit run dashboard/dashboard.py
 
 # **Dashboard Access Instructions** 
 
-You can simply visit my dashboard via link. You can access the link please open the "url.txt". Thank you.
+You can simply visit my dashboard via link. You can access the link by opening the "url.txt". Thank you.
