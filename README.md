@@ -2,14 +2,17 @@
 
 ## Setup Environment - Anaconda
 
-<p> conda create --name main-ds python=3.9 </p>
-<p> conda activate main-ds </p>
-<p> pip install streamlit numpy pandas scipy matplotlib seaborn jupyter </p>
-
+```python
+conda create --name main-ds python=3.9
+conda activate main-ds
+pip install streamlit numpy pandas scipy matplotlib seaborn jupyter
+```
 
 ## Run the code
 
-<p>streamlit run dashboard.py</p>
+```python
+treamlit run dashboard.py
+```
 
 # **Dashboard Access Instructions** 
 
