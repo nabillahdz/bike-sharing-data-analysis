@@ -1,13 +1,16 @@
-Here are several steps to run the dashboard:
+# How to run the streamlit dashboard
 
-# Setup Environment - Anaconda
+## Setup Environment - Anaconda
 
-conda activate main-ds
-
-pip install streamlit
-
-# Run the code
-
-streamlit run dashboard.py
+<p> conda create --name main-ds python=3.9 </p>
+<p> conda activate main-ds </p>
+<p> pip install streamlit numpy pandas scipy matplotlib seaborn jupyter </p>
 
 
+## Run the code
+
+<p>streamlit run dashboard.py</p>
+
+# **Dashboard Access Instructions** 
+
+You can simply visit my dashboard via link. You can access the link please open the "url.txt". Thank you.
