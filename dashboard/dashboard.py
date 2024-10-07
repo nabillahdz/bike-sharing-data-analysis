@@ -103,12 +103,14 @@ elif vis_option == 'Daily Weather Box Plot':
 
 elif vis_option == 'Stacked Rentals by Year':
     props_df = get_rentals_by_year(day_df)
+    props_df['yr'] = props_df['yr'].astype(int)
     plt.figure(figsize=(10, 6))
     plt.bar(props_df['yr'], props_df['casual'], label='Casual')
     plt.bar(props_df['yr'], props_df['registered'], label='Registered', bottom=props_df['casual'])
-    plt.title('Total Bike Rentals by Season and Year')
-    plt.xlabel('Season')
-    plt.ylabel('Total Rentals')
+    plt.title('Total Bike Rentals by Year')
+    plt.xlabel('Year')
+    plt.ylabel('Proportion')
+    plt.xticks([2011, 2012])
     plt.legend()
     st.pyplot(plt)
 
